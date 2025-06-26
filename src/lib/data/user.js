@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 
 const useAuth = create((set) => ({
-  user: null,
+  user: true,
   setUser: (user) => set({ user }),
   logout: () => set({ user: null }),
 }))
