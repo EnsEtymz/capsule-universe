@@ -5,7 +5,7 @@ import { Label } from "./ui/label";
 
 export const LoginForm = () => {
   return (
-       <CardContent>
+       <CardContent className="px-0">
           <form>
               <div className="grid gap-6">
                 <div className="grid gap-3">

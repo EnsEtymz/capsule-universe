@@ -5,7 +5,7 @@ import { Label } from "./ui/label";
 
 export const RegisterForm = () => {
   return (
-    <CardContent>
+    <CardContent className="px-0">
       <form>
         <div className="grid gap-6">
           <div className="grid md:grid-cols-2 gap-4">
